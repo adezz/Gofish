@@ -7,11 +7,7 @@ include "common/db2.php";
 include "common/functions.php";
 
 // 这是用来指定进行钓鱼的
-$fishIp = [
-    '1.1.1.1',
-    '2.2.2.2',
-    '3.3.3.3'
-];
+
 $m = isset($_GET['m'])?$_GET['m']:null;
 $a = isset($_GET['a'])?$_GET['a']:null;
 
